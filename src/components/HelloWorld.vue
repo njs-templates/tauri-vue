@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref } from "vue";
+import Greet from "./Greet.vue";
 
 defineProps<{ msg: string }>();
 
@@ -18,6 +19,7 @@ const count = ref(0);
 		>
 			count is {{ count }}
 		</button>
+		<Greet />
 		<p>
 			This page works with any Daisy UI theme! Try it out and change
 			<code>daisyui.themes</code> in <code>tailwind.config.cjs</code>.

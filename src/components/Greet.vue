@@ -12,14 +12,16 @@ async function greet() {
 </script>
 
 <template>
-	<div class="card">
+	<div class="row">
 		<input
 			id="greet-input"
+			class="input input-bordered mr-2"
 			v-model="name"
 			placeholder="Enter a name..."
 		/>
 		<button
 			type="button"
+			class="btn btn-primary"
 			@click="greet()"
 		>
 			Greet
