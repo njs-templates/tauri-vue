@@ -17,7 +17,7 @@ const count = ref(0);
 			type="button"
 			@click="count++"
 		>
-			count is {{ count }}
+			Count is {{ count }}
 		</button>
 		<Greet />
 		<p>

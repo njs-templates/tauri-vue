@@ -11,8 +11,9 @@ export default defineComponent({
 
 <template>
 	<div
-		id="nav"
-		class="tabs justify-center pb-6"
+	role="tablist"
+	id="nav"
+	class="tabs tabs-bordered justify-center pb-6"
 	>
 		<RouterLink
 			class="tab tab-bordered"
