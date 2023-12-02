@@ -17,12 +17,14 @@ export default defineComponent({
 		<RouterLink
 			class="tab tab-bordered"
 			to="/"
-			>Home</RouterLink
 		>
+			Home
+		</RouterLink>
 		<RouterLink
 			class="tab tab-bordered"
 			to="/other"
-			>Other</RouterLink
 		>
+			Other
+		</RouterLink>
 	</div>
 </template>

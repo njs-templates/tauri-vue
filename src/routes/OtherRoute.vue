@@ -4,6 +4,8 @@ import { defineComponent } from "vue";
 export default defineComponent({
 	name: "OtherRoute",
 });
+
+// TODO: Delete this boilerplate
 </script>
 
 <template>
